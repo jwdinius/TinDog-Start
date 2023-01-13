@@ -11,8 +11,14 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
-    size: 3rem;
+    size: 5rem;
     line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    size: 4rem;
 }
 
 .container-fluid {
@@ -53,33 +59,73 @@ h1 {
     transform: rotate(30deg);
 }
 
+/* features section */
 #features {
     padding: 7% 15%;
 }
 
-/* Testimonial section */
-.testimonial {
+.features {
     text-align: center;
     padding: 5%;
 }
 
-.testimonial-hdr {
+.features-hdr {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-.testimonial-icon {
+.features-icon {
     color: #ef8172;
     margin: 1rem 40%;
 }
 
-.testimonial-icon:hover {
+.features-icon:hover {
     color: #ff4c68;
 }
 
-.testimonial-text {
+.features-text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: #8f8f8f;
+}
+
+/* testimonials section */
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 1rem;
+}
+
+/* press */
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 1rem 1rem 1.5rem;
+}
+
+/* pricing */
+
+#pricing {
+    text-align: center;
+    padding: 6em;  /* video uses 100px, and she sites that sometimes its ok to use pixel padding for different devices */
+}
+
+.pricing-column {
+    padding: 3% 2%;
 }
